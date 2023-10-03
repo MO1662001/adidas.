@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#111,#333);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(181, 58, 58);
+    position: absolute;
+    clip-path: circle(40% at right 70%);
+    z-index: -1;
+}
+
+.shoes{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255,255,255,0.1);
+    border-radius:20px ;
+    
+}    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+    
+}
+.logo{
+ color: aliceblue;
+ text-decoration: none;
+ font-size: 55px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+font-weight: 700;
+
+
+
+}
+ li{
+    display: inline-block;
+    margin: 0% 5px;
+
+}
+li a{
+    color: #faf6f6;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+li a:hover{
+    color: red;
+}
+.content{
+  display: flex; 
+  justify-content:space-between ;
+  align-items: center; 
+  height: 30%;
+  width: 60%;
+  padding: 20PX;
+  color: #faf6f6;
+}
+h2{
+    font-size: xx-large;
+    color: brown;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+p{
+   font-size: 18px; 
+   line-height: 25px;
+   margin: 10px 0;
+   letter-spacing: 1px;
+}
+.img img{
+ width: 500px; 
+ padding-left: 70%;
+margin-top: -12%;
+
+}
+@media (min-width:950px) and (max-width:1150)
